@@ -25,19 +25,19 @@ env:
   - DOCKER_ORG={{ docker_org }}
   {% if docker_pass %}
   # DOCKER_PASS
-  - secure: {{ shell('travis encrypt --no-interactive "DOCKER_PASS={}"'.format(docker_pass)) }}
+  - secure: {{ shell('travis encrypt --no-interactive "DOCKER_PASS={}"'.format(docker_pass)).out.strip() }}
   {% endif %}
 notifications:
   email:
     on_success: never
     on_failure: always
-{% if github_org == 'telephoneorg' and slack_secret -%}
+{% if github_org == 'telephoneorg' and slack_secret %}
   slack:
     rooms:
-    - secure: {{ shell('travis encrypt --no-interactive "{}"'.format(slack_secret)) }}
+    - secure: {{ shell('travis encrypt --no-interactive "{}"'.format(slack_secret)).out.strip() }}
     on_success: always
     on_failure: always
-{%- endif %}
+{% endif %}
 
 before_install: source scripts/ci/environment.sh
 

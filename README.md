@@ -1,5 +1,5 @@
 # Dgoss Test Image
-[![Build Status](https://travis-ci.org/joeblackwaslike/docker-dgoss.svg?branch=master)](https://travis-ci.org/joeblackwaslike/docker-dgoss) [![Docker Pulls](https://img.shields.io/docker/pulls/joeblackwaslike/dgoss.svg)](https://hub.docker.com/r/joeblackwaslike/dgoss/) [![Github Repo](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/joeblackwaslike/docker-dgoss)
+[![Build Status](https://travis-ci.org/telephoneorg/docker-dgoss.svg?branch=master)](https://travis-ci.org/telephoneorg/docker-dgoss) [![Docker Pulls](https://img.shields.io/docker/pulls/telephoneorg/dgoss.svg)](https://hub.docker.com/r/telephoneorg/dgoss/) [![Github Repo](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/telephoneorg/docker-dgoss)
 
 
 ## Maintainer

@@ -4,9 +4,9 @@ description: |-
   A docker image for testing docker containers.
 github:
   user: joeblackwaslike
-  org: joeblackwaslike
+  org: telephoneorg
   repo: docker-dgoss
 docker:
   user: joeblackwaslike
-  org: joeblackwaslike
+  org: telephoneorg
   repo: dgoss
